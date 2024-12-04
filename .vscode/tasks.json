@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Playwright Codegen",
+        "type": "shell",
+        "command": "npx",
+        "args": [
+          "playwright",
+          "codegen",
+          "https://kuvare.com"
+        ],
+        "problemMatcher": [],
+        "detail": "Run Playwright codegen"
+      }
+    ]
+  }

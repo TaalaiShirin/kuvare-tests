@@ -1,0 +1,21 @@
+{
+  "name": "kuvare-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed",
+    "debug": "playwright test --debug",
+    "codegen": "playwright codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.49.0",
+    "playwright": "^1.49.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
