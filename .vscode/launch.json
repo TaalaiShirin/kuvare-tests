@@ -6,7 +6,7 @@
         "request": "launch",
         "name": "Debug Playwright Tests",
         "program": "${workspaceFolder}/node_modules/.bin/playwright",
-        "args": ["test", "testAutomationEng.spec.ts", "--headed", "--debug"],
+        "args": ["test", "kuvareAddress.spec.ts", "--headed", "--debug"],
         "cwd": "${workspaceFolder}",
         "env": {
           "NODE_ENV": "test"

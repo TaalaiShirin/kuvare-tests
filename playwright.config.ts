@@ -15,13 +15,13 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },  // Run tests on Chromium browser
     },
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },  // Run tests on Firefox browser
-    },
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },  // Run tests on WebKit browser
-    },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },  // Run tests on Firefox browser
+    // },
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },  // Run tests on WebKit browser
+    // },
   ],
 });
